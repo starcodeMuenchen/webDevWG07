@@ -1,7 +1,102 @@
-body {
-    background-color: lightblue;
+/* ============================= */
+/* ===== Allgemeine Styles ===== */
+/* ============================= */
+
+/* Dein Code */
+
+/* ======================================= */
+/* ===== Section 1: Navigationszeile ===== */
+/* ======================================= */
+
+/* Dein Code */
+
+/* ================================ */
+/* ===== Section 2: Überblick ===== */
+/* ================================ */
+
+/* Dein Code */
+.section-style-2 {
+    background-color: #46a84b;
+    color: rgb(255, 255, 255);
+  }
+  .grosser-titel {
+    font-size: 80px;
+    font-weight: lighter;
+  }
+  
+  .kleiner-titel {
+    font-size: 20px;
+  }
+  
+  /* ================================ */
+  /* ===== Section 2: Überblick ===== */
+  /* ================================ */
+  .app-bild {
+    width: 200%;
+    border-radius: 0%;
+    transform: rotate(0deg);
+  }
+    
+
+  *{
+    border-radius: 0px;
+  }
+  /* Section 2: Überblick */
+
+#überblick {
+  padding: 0%;
 }
 
-h1 {
-    color: red;
+.überblick-links {
+  padding-top: 5%;
 }
+
+.btn {
+  margin: 0% 0;
+}
+
+.section-style-1 {
+  background-color: #285f2b;
+  color: black;
+}
+
+.kleiner-titel {
+  font-size: 20px;
+}
+
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ffffff;
+  margin-bottom: 10%;
+}
+
+.icon:hover {
+  color: #f0ffd4;
+}
+/* =============================== */
+/* ===== Section 3: Features ===== */
+/* =============================== */
+
+/* Dein Code */
+
+/* ================================== */
+/* ===== Section 4: Bewertungen ===== */
+/* ================================== */
+
+/* Dein Code */
+
+/* ============================= */
+/* ===== Section 5: Preise ===== */
+/* ============================= */
+
+/* Dein Code */
+
+/* ============================= */
+/* ===== Section 6: Footer ===== */
+/* ============================= */
+
+/* Dein Code */
