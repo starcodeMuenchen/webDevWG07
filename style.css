@@ -86,7 +86,23 @@
 /* ================================== */
 /* ===== Section 4: Bewertungen ===== */
 /* ================================== */
+/* ================================== */
+/* ===== Section 4: Bewertungen ===== */
+/* ================================== */
+#bewertungen {
+  padding: 10%;
+}
 
+.bewertung-text {
+  font-size: 40px;
+  margin: 0 10%;
+}
+
+.bewertung-bild {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
 /* Dein Code */
 
 /* ============================= */
