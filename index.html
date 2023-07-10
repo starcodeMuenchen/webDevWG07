@@ -45,7 +45,7 @@
           </h3>
           <button onclick="window.location.href = 'htpps://www.youtube.com/'" class="btn btn-dark btn lg">
             Probier es aus!
-            </button>
+          </button>
         </div>
         <div class="col-lg-6 überblick-rechts"></div>
     </div>
@@ -65,7 +65,7 @@
           </h2>
         </div>
         <div class="feature-box col-lg-4">
-          <!-- Hier ist Feature 2 -->
+          <!-- Hier ist Featue 2r -->
           <h2 class="kleiner-titel">
             Schritt 2: Buchen sie die Reisentour
           </h2>
@@ -79,7 +79,7 @@
             </div>
           </h2>
         </div>
-    
+
       </div>
     </div>
   </section>
@@ -104,7 +104,36 @@
   <!-- ========================================= -->
   <!-- Hier werden die Nutzer-Bewertungen angezeigt -->
   <section class="section-style-2" id="bewertungen">
-    <!-- Dein Code -->
+    <!-- In dieser Section werden die Nutzer-Bewertungen angezeigt. Dafür nutzen wir die Bootstrap-Klasse "carousel" -->
+    <div class="carousel slide text-center" id="bewertungen-carousel">
+      <div class="carousel-inner">
+        <!-- Hier spezifizieren wir die einzelnen Bewertungen. Dafür verwenden wir die Bootstrap-Klasse "carousel-item" -->
+        <!-- Bewertung 1 -->
+        <div class="carousel-item active">
+          <!-- Hier spezifizieren wir den Text, das Bild und den Namen des Nutzers -->
+          <img class="bewertung-bild" src="smasher mann.jpg" />
+          <p>Franz Streisbein,Augsburg</p>
+          <h2 class="bewertung-text">
+            "Supi dupi.Das war der beste Urlaub den ich je hatte."
+          </h2>
+        </div>
+        <!-- Bewertung 2 -->
+        <div class="carousel-item">
+          <h2 class="bewertung-text">
+            "Voll die coole App."
+          </h2>
+        </div>
+      </div>
+      <!-- Hier spezifizieren wir die Pfeile, mit denen der Nutzer zwischen den einzelnen Bewertungen wechseln kann -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#bewertungen-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#bewertungen-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
 
   <!-- ============================= -->
